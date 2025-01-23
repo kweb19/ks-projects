@@ -26,7 +26,6 @@ def score_calc(user_count,computer_count):
         print(f'Computer wins by {computer_count - user_count} rounds')
     play_again()
     
-
 def play(best_of):  # sourcery skip: move-assign
     rule_book = {
     'rock':'scissor',
@@ -54,7 +53,6 @@ def play(best_of):  # sourcery skip: move-assign
             computer_count += 1
             best_of -= 1
     score_calc(user_count,computer_count)
-    
     
 
 participate()
